@@ -1,0 +1,22 @@
+{
+  "name": "pestore",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "import axios from 'axios'.js",
+  "scripts": {
+    "test": "mocha tests/**/*.spec.js --experimental-json-modules --timeout 10000",
+    "testLocal": "NODE_ENV=local npm test",
+    "testSwagger": "NODE_ENV=swagger npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "chai": "^4.3.6",
+    "form-data": "^4.0.0",
+    "fs": "0.0.1-security",
+    "mocha": "^9.2.0",
+    "path": "^0.12.7"
+  }
+}
